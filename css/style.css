@@ -1,0 +1,110 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 20px;
+}
+
+.card {
+   background: #ffffff;
+   border: 1px solid #f3f3f3;
+   box-sizing: border-box;
+   border-radius: 5px;
+
+   max-width: 200px;
+   max-height: 403px;
+   display: flex;
+   flex-direction: column;
+}
+
+.card:hover {
+   background: rgba(255, 253, 253, 0.986);
+}
+
+.card:hover .buy__item {
+   background: #fff;
+   border-style: solid;
+   border-color: #00acdc;
+   color: #00acdc;
+}
+
+.card__image {
+   padding: 30px 20px 0 18px;
+}
+
+.card__list,
+.buy {
+   padding: 0px 15px 0px 15px;
+}
+
+.card__list-text {
+   font-family: initial;
+   font-size: 12px;
+   line-height: 15px;
+
+   color: #000000;
+   padding-top: 45px;
+   margin: 0px;
+}
+
+.card__list-code {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 11px;
+   line-height: 13px;
+
+   padding-top: 6px;
+   margin: 0px;
+}
+
+.card__list-stars {
+   margin: 0px;
+}
+
+.img {
+   font-size: 14px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.otzv {
+   font-size: 11px;
+   line-height: 13px;
+}
+
+.card__list-price {
+   padding-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.price-1 {
+   font-size: 11px;
+   line-height: 13px;
+}
+
+.price-2 {
+   font-size: 16px;
+   font-weight: bold;
+
+   display: flex;
+   justify-content: flex-end;
+}
+
+.buy {
+   padding-bottom: 15px;
+}
+
+.buy__item {
+   background: #00acdc;
+   border-radius: 5px;
+
+   height: 40px;
+   width: 170px;
+   border-style: none;
+
+   font-family: Arial, Helvetica, sans-serif;
+   color: #ffffff;
+   text-transform: uppercase;
+}
